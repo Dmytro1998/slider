@@ -2,6 +2,7 @@
 
 
 *{
+    margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -16,10 +17,11 @@
 
 
 body{
+
     background-color: rgb(230, 221, 221);
 }
 .splide__slide__container{
-    /* background-image: url(../images/image.png); */
+
     height:300px;
    
 
@@ -155,7 +157,7 @@ body{
     padding: 15px;
 }
 
-.price-main{
+.price{
     font-size: 18px;
     font-weight: 700;
     color: rgb(69, 65, 65);}
