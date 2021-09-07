@@ -90,6 +90,35 @@ body{
     background-image: url(../images/image.png);
     
 }
+.card4{
+    background-image: url(../images/redhairgirl.png);
+    height: 100%;
+    width: 330px;
+    position: relative;
+    display: inline-block;
+    background-repeat: no-repeat;
+   
+}
+.card4:hover{
+    background-image: url(../images/transitionlayer7b.png);
+}
+.card5{
+    background-image: url(../images/coloredgirl.png);
+    height: 100%;
+    width: 330px;
+    position: relative;
+    display: inline-block;
+    background-repeat: no-repeat;
+   
+}
+.card5:hover{
+    background-image: url(../images/transitionlayer8b.png);
+}
+
+
+
+
+
 
 
 .item .card-top{
