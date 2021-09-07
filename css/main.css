@@ -6,9 +6,14 @@
 }
 
 .splide{
-    margin-left: 7%;
+    margin-left: 9%;
     margin-top: 10%;
 }
+.splide__arrow {
+
+    margin-left: 10px;
+}
+
 
 body{
     background-color: rgb(230, 221, 221);
@@ -20,7 +25,7 @@ body{
 
 }
 .card{
-    background-image: url(../images/image.png);
+    background-image: url(../images/coloredmen.png);
     height: 100%;
     width: 100%;
     position: relative;
@@ -28,9 +33,65 @@ body{
     background-repeat: no-repeat;
 }
 .card:hover{
+    background-image: url(../images/transitionlayer4b.png);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.card1{
+    background-image: url(../images/guywithglasses.png);
+    height: 100%;
+    width: 330px;
+    position: relative;
+    display: inline-block;
+    background-repeat: no-repeat;
+   
+}
+
+.card1:hover{
     background-image: url(../images/transitionlayer3b.png);
 
 }
+.card2{
+    background-image: url(../images/girlinincoloreddress.png);
+    height: 100%;
+    width: 330px;
+    position: relative;
+    display: inline-block;
+    background-repeat: no-repeat;
+   
+}
+
+.card2:hover{
+    background-image: url(../images/transitionlayer5b.png);
+}
+.card2{
+    background-image: url(../images/girlinincoloreddress.png);
+    height: 100%;
+    width: 330px;
+    position: relative;
+    display: inline-block;
+    background-repeat: no-repeat;
+   
+}
+.card3{
+    background-image: url(../images/cardigan.png);
+    height: 100%;
+    width: 330px;
+    position: relative;
+    display: inline-block;
+    background-repeat: no-repeat;
+   
+}
+.card3:hover{
+    background-image: url(../images/image.png);
+    
+}
+
+
 .item .card-top{
     display: none;
     position: absolute;
@@ -69,3 +130,12 @@ body{
     font-size: 18px;
     font-weight: 700;
     color: rgb(69, 65, 65);}
+/* .splide{
+    mar
+} */
+.item-name {
+color: black;
+}
+.item-name:hover {
+    color:chocolate;
+    }
